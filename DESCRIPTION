@@ -1,0 +1,22 @@
+Package: osclassifier
+Type: Package
+Title: Classify Osteosarcoma Bulk RNA-seq Samples Using Gene Modules
+Version: 0.1.0
+Authors@R: 
+    person(given = "Rugechan", family = "QMuLab", email = "chenruge7@gmail.com", role = c("aut", "cre"))
+Description: Classify osteosarcoma samples into molecular subtypes based on CPM/TPM/RPKM/FPKM bulk RNA-seq data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    stats,
+    utils,
+    methods,
+    pheatmap,
+    grDevices
+Depends: 
+    R (>= 3.5)
+LazyData: true
+URL: https://github.com/QMuLab/osclassifier
+BugReports: https://github.com/QMuLab/osclassifier/issues
