@@ -41,7 +41,7 @@ expr <- matrix(
 # ---- Step 0: Normalize ----
 # If your data has already been log-transformed and normalization, skip this step.
 expr_norm <- log1p(expr)                  # log1p transform
-expr_norm <- scale(t(scale(t(expr_norm)))       #Normalization 
+expr_norm <- scale(t(scale(t(expr_norm)))       # Normalization 
 expr_norm[is.na(expr_norm)] <- 0           # replace NA from zero-variance genes
 
 # ---- Step 1: Compute module scores & TopCluster ----
