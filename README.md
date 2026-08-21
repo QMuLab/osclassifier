@@ -25,9 +25,11 @@ data(gene_list)
 # elements = character vectors of gene symbols
 # Example:
 # my_gene_list <- list(
-#   "SubtypeA" = c("Gene1", "Gene2", "Gene3"),
-#   "SubtypeB" = c("Gene4", "Gene5", "Gene6")
-# )
+#  "SubtypeA" = c("Gene1", "Gene2", "Gene3"),
+#  "SubtypeB" = c("Gene4", "Gene5", "Gene6"),
+#  "SubtypeC" = c("Gene7", "Gene8", "Gene9"),
+#  "SubtypeD" = c("Gene10", "Gene11", "Gene12"))
+
 
 
 # Simulated expression matrix:
