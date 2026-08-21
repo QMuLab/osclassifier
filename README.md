@@ -101,3 +101,4 @@ plot_module_heatmap(
   hp,
   show_colnames = TRUE, fontsize_col = 6
 )
+```
